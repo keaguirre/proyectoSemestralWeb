@@ -1,3 +1,10 @@
+
+.carousel
+{
+    width: 1220px;
+    margin: auto;
+}
+
 .carousel .carousel-item {
     height: 450px;
   }
@@ -9,6 +16,19 @@
 
 #containerCarrusel
 {
-background-color: rgb(245, 186, 60);
+background-color: rgb(250, 186, 49);
 
 }
+
+.btn-rounded {
+  border-radius: 10rem;
+}
+
+h1
+{
+margin-top: 10px;
+font-weight: 700;
+font-size: 28px;
+color:rgb(255, 174, 0);
+}
+
