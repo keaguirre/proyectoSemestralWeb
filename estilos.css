@@ -1,0 +1,45 @@
+.carousel
+{
+    width: 1220px;
+    margin: auto;
+}
+
+.carousel .carousel-item {
+    height: 450px;
+  }
+  
+.carousel-item img 
+{
+    height: 500px;
+}
+
+#containerCarrusel
+{
+background-color: rgb(250, 186, 49);
+
+}
+
+.btn-rounded {
+  border-radius: 10rem;
+}
+
+h1
+{
+margin-top: 20px;
+margin-bottom: 20px;
+font-weight: 700;
+font-size: 28px;
+color:rgb(255, 174, 0);
+}
+
+#ColCat
+{
+  color: white;
+  
+}
+
+#BarraArriba
+{
+  background-color: rgb(250, 186, 49);
+
+}
