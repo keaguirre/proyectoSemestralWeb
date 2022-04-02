@@ -12,10 +12,8 @@
     <title>MascotaFeliz | Productos para mascotas</title>
   </head>
   <body>
-
-    <!--Barra celeste arriba(row)-->
-    <div class="topnav row container-fluid-expand-lg ps-2 text-white" id="BarraArriba">
-
+  <div class="fixed-top"><!--Este div encierra la barra amarilla de RRSS y hiperviculos con el menu y navbar para poder fijarlo y baje con scroll-->
+    <div class="topnav row container-fluid-expand-lg ps-2 text-white" id="BarraArriba"><!--Barra amarilla arriba(row)-->
       <!--Columna izquierda RRSS-->
       <div class="col-4 ps-5 ">
         <!--Youtube-->
@@ -56,14 +54,15 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
               <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="#">Perro ->dropend dog items</a>
+                <li><a class="dropdown-item" href="#">Perro ->dropend dog items</a></li>
                 <li><a class="dropdown-item" href="#">Gato ->dropend cat items</a></li>
               </ul>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Ofertas</a>
-              </li>
+            </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="login.html">Log in</a>
+              <a class="nav-link" href="#">Ofertas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="login.html">Ingresar</a>
             </li>
           </ul>
           <!--Barra de busqueda-->
@@ -72,12 +71,10 @@
               <button class="btn btn-light btn-outline-secondary" type="submit"><img src="https://img.icons8.com/fluency/25/000000/search.png"/></button>
           </form>
         </div>
-        <div class="col-4">columna-4 tercer bloque a la derecha, arreglar para dejar sin texto</div>
+        <div class="col-4">columna-4</div><!--tercer bloque a la derecha, arreglar para dejar sin texto-->
       </div>
     </nav>
-
-
-
+  </div><!--revisar linea 15 para info-->
 
     <!--Carrusel-->
     <!--El carrusel no llega hasta el fondo, revisar para arreglar (expand-lg se uso para rellenar la barra amarilla del top)-->
