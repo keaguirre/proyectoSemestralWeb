@@ -30,8 +30,8 @@
 
       <!--Text-decoration-none para quitar el subrayado-->
       <div class=" col-4">
-        <a class="pe-2 text-light text-decoration-none" href="/secciones/comocomprar.html">Cómo comprar</a>
-        <a class="pe-2 text-light text-decoration-none" href="/secciones/contactanos.html">Contáctanos</a>
+        <a class="pe-2 text-light text-decoration-none" href="secciones/comocomprar.html">Cómo comprar</a>
+        <a class="pe-2 text-light text-decoration-none" href="secciones/contactanos.html">Contáctanos</a>
       </div>
     </div>
     <!--------------------------------------------------------------------------------------------------->
@@ -40,7 +40,7 @@
     <nav class="row navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <div class="col-4">
-          <a class="ps-5" href="index.html">Logo/home</a>
+          <a class="ps-5" href="index.html">Logo(placeHolder)</a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -54,18 +54,26 @@
               <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                 <li><a class="dropdown-item" href="#">Perro ->dropend dog items</a></li>
                 <li><a class="dropdown-item" href="#">Gato ->dropend cat items</a></li>
+                <li class="nav-link dropdown">
+                  <a class="dropdown-item dropdown-toggle" href="" data-toggle="dropdown">dropdown</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">action</a></li>
+                    <li><a href="#">another action</a></li>
+                    <li><a href="#">something else here</a></li>
+                  </ul>
+                </li>
               </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Ofertas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/secciones/login.html">Ingresar</a>
+              <a class="nav-link active" aria-current="page" href="secciones/login.html">Ingresar</a>
             </li>
           </ul>
           <!--Barra de busqueda-->
-          <form class="ps-3 pe-3 d-flex">
-              <input class="me-2 form-control" type="search" placeholder="Search" aria-label="Search">
+          <form class="input-group ps-3 pe-3 d-flex">
+              <input class="me-2 form-control" type="search" placeholder="Busca aquí" aria-label="Search">
               <button class="btn btn-light btn-outline-secondary" type="submit"><img src="https://img.icons8.com/fluency/25/000000/search.png"/></button>
           </form>
         </div>
