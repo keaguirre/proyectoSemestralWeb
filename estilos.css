@@ -11,7 +11,7 @@
 
 #containerCarrusel
 {
-background-color: rgb(250, 186, 49);
+background-color: rgb(52, 86, 170);
 
 }
 
@@ -25,7 +25,7 @@ margin-top: 20px;
 margin-bottom: 20px;
 font-weight: 700;
 font-size: 28px;
-color:rgb(255, 174, 0);
+color:rgb(52, 86, 170);
 }
 
 #ColCat
@@ -36,9 +36,17 @@ color:rgb(255, 174, 0);
 
 #BarraArriba
 {
-  background-color: rgb(250, 186, 49);
+  background-color: rgb(52, 86, 170);
 
 }
+
+.btn-warning {
+  color: #000;
+  background-color: rgb(52, 86, 170)!important;
+  border-color: rgb(52, 86, 170)!important;
+}
+
+
 
 /*Pie de pagina */
 a
@@ -51,7 +59,7 @@ a
   margin: 0px 0px 20px;
   text-transform: uppercase;
   font-size: 14pt;
-  color: #F68629;
+  color: rgb(34, 55, 108);
   padding-bottom: 0px;
   font-weight: 700;
 }
@@ -60,7 +68,7 @@ a
   background-color: #fff;
   text-transform: uppercase;
   padding: 10px 20px;
-  border: 2px solid rgb(250, 186, 49);
+  border: 2px solid rgb(52, 86, 170);
   font-size: 14px;
   color: #575757 !important;
   border-radius: 10px;
