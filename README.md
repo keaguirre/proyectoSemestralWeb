@@ -1,2 +1,0 @@
-# projectoSemestralWeb
-proyecto semestral web
